@@ -19,3 +19,10 @@ model Product {
 
   @@map("products")
 }
+
+model City {
+  id String @unique
+  name String @unique
+
+  @@map("cities")
+}
