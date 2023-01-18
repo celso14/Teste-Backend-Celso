@@ -2,7 +2,7 @@ import { Router, Request, Response } from 'express';
 
 export const router = Router();
 
-router.get('/all', (req:Request, res: Response) => {
+router.get('/', (req:Request, res: Response) => {
     res.json({
         result: "all cities RJ",
     });
