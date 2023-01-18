@@ -21,7 +21,7 @@ model Product {
 }
 
 model City {
-  id String @unique
+  id Int @unique
   name String @unique
 
   @@map("cities")

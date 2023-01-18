@@ -18,7 +18,7 @@ export const all = async (req:Request, res:Response) => {
         return res.status(200).json({...list});
     }
     catch(err: any){
-        return res.status(400).send({error: "Request Failed"});
+        return res.status(400).send({error: err});
     }
 }
 

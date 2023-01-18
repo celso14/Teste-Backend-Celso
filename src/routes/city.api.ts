@@ -1,12 +1,8 @@
-import { Router, Request, Response } from 'express';
+import { Router } from 'express';
+import * as cityController from '../controllers/city.controller';
 
 export const router = Router();
 
-router.get('/', (req:Request, res: Response) => {
-    res.json({
-        result: "all cities RJ",
-    });
-    res.status(200);
-});
+router.get('/city/all', cityController.all);
 
 export default router;
