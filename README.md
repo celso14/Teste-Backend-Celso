@@ -1,4 +1,4 @@
-# Teste-Backend-Celso
+# Node Products API
 
 ## Para rodar a aplicação
 - npm i
